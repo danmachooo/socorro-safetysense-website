@@ -54,7 +54,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-mesh pt-16">
+      <section className="relative z-50 overflow-hidden bg-gradient-mesh pt-16">
         <div className="absolute inset-0 bg-gradient-subtle" />
 
         <div className="container relative mx-auto px-4 py-24 md:py-32 lg:py-40">
