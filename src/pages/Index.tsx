@@ -55,7 +55,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative z-50 overflow-hidden bg-gradient-mesh pt-16">
-        <div className="absolute inset-0 bg-gradient-subtle" />
+        <div className="absolute inset-0 bg-gradient-subtle pointer-events-none" />
 
         <div className="container relative mx-auto px-4 py-24 md:py-32 lg:py-40">
           <div className="mx-auto max-w-4xl text-center">
@@ -105,21 +105,21 @@ const Index = () => {
               </a>
 
               <Button
-  asChild
-  size="lg"
-  variant="outline"
-  className="h-12 px-8 text-base font-medium border-border hover:bg-accent transition-all"
->
-  <Link to="/learn-more">
-    Learn More
-  </Link>
-</Button>
+                asChild
+                size="lg"
+                variant="outline"
+                className="h-12 px-8 text-base font-medium border-border hover:bg-accent transition-all"
+              >
+                <Link to="/learn-more">
+                  Learn More
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
 
         {/* Bottom fade */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </section>
 
       {/* Description Section */}
@@ -157,7 +157,7 @@ const Index = () => {
                 className="group relative overflow-hidden border border-border bg-card p-8 transition-all duration-300 hover:shadow-lg hover:border-foreground/20 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="absolute right-0 top-0 h-32 w-32 translate-x-8 -translate-y-8 rounded-full bg-gradient-mesh opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100" />
+                <div className="absolute right-0 top-0 h-32 w-32 translate-x-8 -translate-y-8 rounded-full bg-gradient-mesh opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100 pointer-events-none" />
 
                 <div className="relative">
                   <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg border border-border bg-background transition-all duration-300 group-hover:border-foreground/20 group-hover:shadow-md">
@@ -180,12 +180,12 @@ const Index = () => {
 
       {/* Download CTA Section */}
       <section className="relative py-20 md:py-28 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-mesh opacity-50" />
+        <div className="absolute inset-0 bg-gradient-mesh opacity-50 pointer-events-none" />
 
         <div className="container relative mx-auto px-4">
           <div className="mx-auto max-w-3xl">
             <Card className="relative overflow-hidden border border-border bg-card/50 p-12 backdrop-blur-sm shadow-xl">
-              <div className="absolute inset-0 bg-gradient-mesh opacity-30" />
+              <div className="absolute inset-0 bg-gradient-mesh opacity-30 pointer-events-none" />
 
               <div className="relative text-center">
                 <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
