@@ -305,7 +305,7 @@ const LearnMore = () => {
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-mesh pt-16">
-        <div className="absolute inset-0 bg-gradient-subtle" />
+        <div className="absolute inset-0 bg-gradient-subtle pointer-events-none" />
 
         <div className="container relative mx-auto px-4 py-24 md:py-32 lg:py-40">
           <div className="mx-auto max-w-4xl text-center">
@@ -353,7 +353,7 @@ const LearnMore = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </section>
 
       {/* About Section */}
