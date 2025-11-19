@@ -104,15 +104,16 @@ const Index = () => {
                 </Button>
               </a>
 
-              <Link to="/learn-more">
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="h-12 px-8 text-base font-medium border-border hover:bg-accent transition-all"
-                >
-                  Learn More
-                </Button>
-              </Link>
+              <Button
+  asChild
+  size="lg"
+  variant="outline"
+  className="h-12 px-8 text-base font-medium border-border hover:bg-accent transition-all"
+>
+  <Link to="/learn-more">
+    Learn More
+  </Link>
+</Button>
             </div>
           </div>
         </div>
